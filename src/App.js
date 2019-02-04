@@ -1,9 +1,10 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import "./App.css";
 
-import Quote from "./Quote";
+// import Quote from "./Quote";
 import Travel from "./Travel";
+import Wild from "./Wild";
 
 class App extends Component {
   render() {
@@ -35,6 +36,8 @@ class App extends Component {
           photo="https://cdn.allwallpaper.in/wallpapers/1920x1080/14058/nature-china-travel-1920x1080-wallpaper.jpg"
           distance="15000km"
         />
+        <Wild />
+        <MyTimer />
       </div>
     );
   }
