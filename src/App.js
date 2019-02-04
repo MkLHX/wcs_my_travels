@@ -5,6 +5,7 @@ import "./App.css";
 // import Quote from "./Quote";
 import Travel from "./Travel";
 import Wild from "./Wild";
+import MyTimer from "./MyTimer";
 
 class App extends Component {
   render() {
